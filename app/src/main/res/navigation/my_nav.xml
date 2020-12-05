@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="shohjahon.salaryuz.fragments.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_lavozimlarFragment"
+            app:destination="@id/lavozimlarFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_ustamalarFragment"
+            app:destination="@id/ustamalarFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_tolovlarFragment"
+            app:destination="@id/tolovlarFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_ishchilarFragment"
+            app:destination="@id/ishchilarFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/ishchilarFragment"
+        android:name="shohjahon.salaryuz.fragments.IshchilarFragment"
+        android:label="fragment_ishchilar"
+        tools:layout="@layout/fragment_ishchilar" />
+    <fragment
+        android:id="@+id/tolovlarFragment"
+        android:name="shohjahon.salaryuz.fragments.TolovlarFragment"
+        android:label="fragment_tolovlar"
+        tools:layout="@layout/fragment_tolovlar" />
+    <fragment
+        android:id="@+id/lavozimlarFragment"
+        android:name="shohjahon.salaryuz.fragments.LavozimlarFragment"
+        android:label="fragment_lavozimlar"
+        tools:layout="@layout/fragment_lavozimlar" />
+    <fragment
+        android:id="@+id/ustamalarFragment"
+        android:name="shohjahon.salaryuz.fragments.UstamalarFragment"
+        android:label="fragment_ustamalar"
+        tools:layout="@layout/fragment_ustamalar" />
+</navigation>

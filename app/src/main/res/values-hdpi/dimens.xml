@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bottom_txt_size">12sp</dimen>
+    <dimen name="title_txt_size">22sp</dimen>
+    <dimen name="edit_width">250dp</dimen>
+    <dimen name="header_height">150dp</dimen>
+
+</resources>

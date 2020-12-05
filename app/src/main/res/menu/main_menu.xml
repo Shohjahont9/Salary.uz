@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:title="Asosiy">
+        <menu>
+            <item
+                android:id="@+id/home"
+                android:icon="@drawable/ic_asosiy"
+                android:title="Asosiy" />
+        </menu>
+    </item>
+    <item android:title="Lavozimlar">
+        <menu>
+            <item
+                android:id="@+id/lavozim"
+                android:icon="@drawable/ic_lavozim"
+                android:title="Lavozimlar" />
+        </menu>
+    </item>
+    <item android:title="Ustamalar"
+        android:id="@+id/pr">
+        <menu>
+            <item
+                android:id="@+id/ustamalar"
+                android:icon="@drawable/ic_ustamalar"
+                android:title="Ustamalar" />
+
+        </menu>
+    </item>
+
+<!--    <item android:title="To`lovlar"-->
+<!--        android:id="@+id/pr1">-->
+<!--        <menu>-->
+<!--            <item-->
+<!--                android:id="@+id/tolovlar"-->
+<!--                android:icon="@drawable/ic_tolov"-->
+<!--                android:title="To`lovlar" />-->
+
+<!--        </menu>-->
+<!--    </item>-->
+</menu>
